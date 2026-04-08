@@ -2,7 +2,7 @@
 #SBATCH --job-name=Top_Train_Val
 #SBATCH --output=logs/Top_training.txt
 #SBATCH --partition=c23g           
-#SBATCH --exclude=n23g0001
+###SBATCH --exclude=n23g0001
 #SBATCH --gres=gpu:1               # Anzahl GPUs
 #SBATCH --cpus-per-task=4         # Threads für DataLoader
 ##SBATCH --mem=120G                  
